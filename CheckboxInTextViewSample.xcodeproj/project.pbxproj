@@ -13,6 +13,8 @@
 		286A6CB423CEE6FF00AA94D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286A6CB223CEE6FF00AA94D8 /* Main.storyboard */; };
 		286A6CB623CEE70A00AA94D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286A6CB523CEE70A00AA94D8 /* Assets.xcassets */; };
 		286A6CB923CEE70A00AA94D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286A6CB723CEE70A00AA94D8 /* LaunchScreen.storyboard */; };
+		286A6CC123CEE72700AA94D8 /* CheckboxInTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286A6CC023CEE72700AA94D8 /* CheckboxInTextView.swift */; };
+		286D9B9623CFFD0D00937427 /* CheckboxTextAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D9B9523CFFD0D00937427 /* CheckboxTextAttachment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		286A6CB523CEE70A00AA94D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		286A6CB823CEE70A00AA94D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		286A6CBA23CEE70A00AA94D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286A6CC023CEE72700AA94D8 /* CheckboxInTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxInTextView.swift; sourceTree = "<group>"; };
+		286D9B9523CFFD0D00937427 /* CheckboxTextAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxTextAttachment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				286A6CAC23CEE6FF00AA94D8 /* AppDelegate.swift */,
 				286A6CAE23CEE6FF00AA94D8 /* SceneDelegate.swift */,
 				286A6CB023CEE6FF00AA94D8 /* ViewController.swift */,
+				286A6CC023CEE72700AA94D8 /* CheckboxInTextView.swift */,
+				286D9B9523CFFD0D00937427 /* CheckboxTextAttachment.swift */,
 				286A6CB223CEE6FF00AA94D8 /* Main.storyboard */,
 				286A6CB523CEE70A00AA94D8 /* Assets.xcassets */,
 				286A6CB723CEE70A00AA94D8 /* LaunchScreen.storyboard */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				286A6CB123CEE6FF00AA94D8 /* ViewController.swift in Sources */,
+				286A6CC123CEE72700AA94D8 /* CheckboxInTextView.swift in Sources */,
 				286A6CAD23CEE6FF00AA94D8 /* AppDelegate.swift in Sources */,
 				286A6CAF23CEE6FF00AA94D8 /* SceneDelegate.swift in Sources */,
+				286D9B9623CFFD0D00937427 /* CheckboxTextAttachment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
